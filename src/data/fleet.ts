@@ -7,7 +7,7 @@ export const fleet: Vehicle[] = [
     type: "Sedan",
     capacity: 4,
     features: ["AC", "Comfortable Seating", "Good for Small Families", "Music System"],
-    image: "/dzire.jpg"
+    image: "/sedan_car.jpg"
   },
   {
     id: "veh-2",
@@ -15,7 +15,7 @@ export const fleet: Vehicle[] = [
     type: "Hatchback",
     capacity: 4,
     features: ["AC", "Compact", "City Tours", "Budget Friendly"],
-    image: "/dzire.jpg" // Using dzire as fallback for now
+    image: "/sedan_car.jpg" // Using dzire as fallback for now
   },
   {
     id: "veh-3",
@@ -23,7 +23,7 @@ export const fleet: Vehicle[] = [
     type: "SUV",
     capacity: 7,
     features: ["Non-AC / AC", "High Ground Clearance", "Good for Hilly Terrain", "Spacious"],
-    image: "/bolero.jpg"
+    image: "/suv_car.jpg"
   },
   {
     id: "veh-4",
@@ -31,7 +31,7 @@ export const fleet: Vehicle[] = [
     type: "SUV",
     capacity: 8,
     features: ["Non-AC", "Large Groups", "Hill Stations", "Economical"],
-    image: "/bolero.jpg" // Using bolero as fallback
+    image: "/suv_car.jpg" // Using bolero as fallback
   },
   {
     id: "veh-5",
@@ -39,7 +39,7 @@ export const fleet: Vehicle[] = [
     type: "Premium SUV",
     capacity: 6,
     features: ["AC", "Premium Comfort", "Long Journeys", "Captain Seats"],
-    image: "/innova.jpg"
+    image: "/suv_car.jpg"
   },
   {
     id: "veh-6",
@@ -47,7 +47,7 @@ export const fleet: Vehicle[] = [
     type: "Luxury SUV",
     capacity: 6,
     features: ["AC", "Luxury Comfort", "Corporate Travel", "Extra Legroom"],
-    image: "/innova.jpg" // Using innova as fallback
+    image: "/suv_car.jpg" // Using innova as fallback
   },
   {
     id: "veh-7",
@@ -55,6 +55,14 @@ export const fleet: Vehicle[] = [
     type: "MUV",
     capacity: 6,
     features: ["AC", "Family Travel", "Spacious Boot", "Comfortable"],
-    image: "/innova.jpg" // Using innova as fallback
+    image: "/suv_car.jpg" // Using innova as fallback
+  },
+  {
+    id: "veh-8",
+    name: "Tempo Traveller",
+    type: "Van",
+    capacity: 12,
+    features: ["AC", "Large Groups", "Comfortable Seating", "Spacious"],
+    image: "/van_car.jpg" // Fallback image
   }
 ];

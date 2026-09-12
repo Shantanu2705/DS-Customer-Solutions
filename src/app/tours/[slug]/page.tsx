@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!tour) return { title: "Tour Not Found" }
   return {
     title: `${tour.title} | DS Customer Solution`,
-    description: `Book our ${tour.duration} ${tour.title} starting from ₹${tour.price}.`
+    description: `Book our ${tour.duration} ${tour.title} starting from ${tour.price ? `₹${tour.price}` : 'an affordable price'}.`
   }
 }
 
@@ -117,9 +117,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ slu
               <div className="text-center mb-6 pb-6 border-b border-gray-100">
                 <div className="text-sm text-gray-500 font-semibold uppercase tracking-wider mb-1">Starting Price</div>
                 <div className="text-4xl font-bold text-[var(--color-brand-blue)]">
-                  ₹{tour.price.toLocaleString("en-IN")}
+                  {tour.price ? `₹${tour.price.toLocaleString("en-IN")}` : "On Request"}
                 </div>
-                <div className="text-sm text-gray-500 mt-1">Per Person</div>
+                {tour.price ? <div className="text-sm text-gray-500 mt-1">Per Person</div> : null}
               </div>
               
               <Button className="w-full h-14 text-lg bg-[var(--color-brand-yellow)] text-[var(--color-brand-dark)] hover:bg-[var(--color-brand-yellow)]/90 font-bold shadow-md mb-4" asChild>

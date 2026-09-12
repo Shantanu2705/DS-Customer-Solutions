@@ -19,7 +19,7 @@ export const tours: TourPackage[] = [
       "NJP Pickup & Drop"
     ],
     importantNote: "Minimum 8 Pax required to avail this package.",
-    image: "/darjeeling.jpg"
+    image: "/mountain_tour.jpg"
   },
   {
     id: "tour-2",
@@ -39,7 +39,7 @@ export const tours: TourPackage[] = [
       "NJP Pickup & Drop"
     ],
     importantNote: "Minimum 8 Pax required to avail this special package.",
-    image: "/img1.jpeg"
+    image: "/mountain_tour.jpg"
   },
   {
     id: "tour-3",
@@ -58,7 +58,7 @@ export const tours: TourPackage[] = [
       "Food Included"
     ],
     marketingLine: "Explore Sikkim • Create Beautiful Memories",
-    image: "/img2.jpeg"
+    image: "/mountain_tour.jpg"
   },
   {
     id: "tour-4",
@@ -76,7 +76,7 @@ export const tours: TourPackage[] = [
       "Food Included"
     ],
     marketingLine: "Limited Slots Available! Book Your Group Now.",
-    image: "/goa.jpg"
+    image: "/beach_tour.jpg"
   },
   {
     id: "tour-5",
@@ -95,6 +95,178 @@ export const tours: TourPackage[] = [
       "Parking Charges"
     ],
     marketingLine: "Explore Kashmir • Create Beautiful Memories",
-    image: "/img3.jpeg"
+    image: "/mountain_tour.jpg"
+  },
+  {
+    id: "tour-6",
+    slug: "dooars-group-tour",
+    title: "DOOARS GROUP TOUR",
+    duration: "3 Nights / 4 Days",
+    route: "Dooars",
+    minimumPax: 3,
+    price: 5200,
+    packageType: "Group Tour",
+    inclusions: [
+      "Gorumara Forest Safari",
+      "Seven Point Tour",
+      "Safari Car Included",
+      "Triple Sharing Room"
+    ],
+    marketingLine: "Enjoy 3 Nights & 4 Days amidst the beautiful nature of Dooars!",
+    image: "/forest_safari.jpg"
+  },
+  {
+    id: "tour-7",
+    slug: "shimla-manali",
+    title: "Shimla-Manali Tour Package",
+    duration: "Customizable",
+    route: "Available on request",
+    minimumPax: 2,
+    packageType: "Holiday Package",
+    inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
+    image: "/mountain_tour.jpg"
+  },
+  {
+    id: "tour-8",
+    slug: "kashmir-paradise",
+    title: "Kashmir Paradise Tour",
+    duration: "Customizable",
+    route: "Available on request",
+    minimumPax: 2,
+    packageType: "Holiday Package",
+    inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
+    image: "/mountain_tour.jpg"
+  },
+  {
+    id: "tour-9",
+    slug: "kerala-gods-own-country",
+    title: "Kerala God's Own Country Tour",
+    duration: "Customizable",
+    route: "Available on request",
+    minimumPax: 2,
+    packageType: "Holiday Package",
+    inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
+    image: "/beach_tour.jpg"
+  },
+  {
+    id: "tour-10",
+    slug: "goa-beach-holiday",
+    title: "Goa Beach Holiday Package",
+    duration: "Customizable",
+    route: "Available on request",
+    minimumPax: 2,
+    packageType: "Holiday Package",
+    inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
+    image: "/beach_tour.jpg"
+  },
+  {
+    id: "tour-11",
+    slug: "rajasthan-heritage",
+    title: "Rajasthan Heritage Tour",
+    duration: "Customizable",
+    route: "Available on request",
+    minimumPax: 2,
+    packageType: "Holiday Package",
+    inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
+    image: "/heritage_tour.jpg"
+  },
+  {
+    id: "tour-12",
+    slug: "golden-triangle",
+    title: "Golden Triangle Tour – Delhi, Agra & Jaipur",
+    duration: "Customizable",
+    route: "Available on request",
+    minimumPax: 2,
+    packageType: "Holiday Package",
+    inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
+    image: "/heritage_tour.jpg"
+  },
+  {
+    id: "tour-13",
+    slug: "andaman-island",
+    title: "Andaman Island Escape",
+    duration: "Customizable",
+    route: "Available on request",
+    minimumPax: 2,
+    packageType: "Holiday Package",
+    inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
+    image: "/beach_tour.jpg"
+  },
+  {
+    id: "tour-14",
+    slug: "himachal-explorer",
+    title: "Himachal Explorer Tour",
+    duration: "Customizable",
+    route: "Available on request",
+    minimumPax: 2,
+    packageType: "Holiday Package",
+    inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
+    image: "/mountain_tour.jpg"
+  },
+  {
+    id: "tour-15",
+    slug: "uttarakhand-nature",
+    title: "Uttarakhand Nature Tour",
+    duration: "Customizable",
+    route: "Available on request",
+    minimumPax: 2,
+    packageType: "Holiday Package",
+    inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
+    image: "/forest_safari.jpg"
+  },
+  {
+    id: "tour-16",
+    slug: "meghalaya-shillong",
+    title: "Meghalaya & Shillong Tour",
+    duration: "Customizable",
+    route: "Available on request",
+    minimumPax: 2,
+    packageType: "Holiday Package",
+    inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
+    image: "/mountain_tour.jpg"
+  },
+  {
+    id: "tour-17",
+    slug: "jaisalmer-desert",
+    title: "Jaisalmer Desert Safari Tour",
+    duration: "Customizable",
+    route: "Available on request",
+    minimumPax: 2,
+    packageType: "Holiday Package",
+    inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
+    image: "/desert_safari.jpg"
+  },
+  {
+    id: "tour-18",
+    slug: "varanasi-spiritual",
+    title: "Varanasi Spiritual Tour",
+    duration: "Customizable",
+    route: "Available on request",
+    minimumPax: 2,
+    packageType: "Holiday Package",
+    inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
+    image: "/spiritual_tour.jpg"
+  },
+  {
+    id: "tour-19",
+    slug: "ooty-mysore",
+    title: "Ooty-Mysore Holiday Package",
+    duration: "Customizable",
+    route: "Available on request",
+    minimumPax: 2,
+    packageType: "Holiday Package",
+    inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
+    image: "/mountain_tour.jpg"
+  },
+  {
+    id: "tour-20",
+    slug: "arunachal-pradesh",
+    title: "Arunachal Pradesh Adventure Tour",
+    duration: "Customizable",
+    route: "Available on request",
+    minimumPax: 2,
+    packageType: "Holiday Package",
+    inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
+    image: "/mountain_tour.jpg"
   }
 ];

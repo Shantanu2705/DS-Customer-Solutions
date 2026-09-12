@@ -37,6 +37,7 @@ export interface SiteConfig {
   description: string;
   contact: {
     phone: string;
+    alternatePhone?: string;
     whatsapp: string;
     email: string;
     address: string;

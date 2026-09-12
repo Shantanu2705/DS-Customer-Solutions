@@ -54,7 +54,10 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="font-bold text-[var(--color-brand-blue)] mb-1">Phone / WhatsApp</h4>
-                  <p className="text-gray-600 mb-2">{siteConfig.contact.phone}</p>
+                  <p className="text-gray-600">{siteConfig.contact.phone}</p>
+                  {siteConfig.contact.alternatePhone && (
+                    <p className="text-gray-600 mb-2 text-sm">Alt: {siteConfig.contact.alternatePhone}</p>
+                  )}
                   <div className="flex gap-2 mt-2">
                     <Button size="sm" asChild className="bg-[var(--color-brand-blue)] hover:bg-[var(--color-brand-blue)]/90">
                       <a href={`tel:${siteConfig.contact.phone.replace(/[^0-9+]/g, '')}`}>Call Now</a>

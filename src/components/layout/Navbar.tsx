@@ -42,9 +42,9 @@ export function Navbar() {
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent",
+        "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
         isScrolled 
-          ? "bg-white/95 backdrop-blur-md shadow-md border-gray-200 py-3" 
+          ? "bg-white/95 backdrop-blur-md shadow-md border-b border-gray-200 py-3" 
           : "bg-gradient-to-b from-black/60 to-transparent py-5"
       )}
     >

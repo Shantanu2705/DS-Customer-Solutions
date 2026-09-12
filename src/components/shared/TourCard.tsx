@@ -52,8 +52,14 @@ export function TourCard({ tour }: TourCardProps) {
           <div className="text-right">
              <div className="text-xs text-gray-500 uppercase tracking-wider">Starting from</div>
              <div className="text-2xl font-bold text-[var(--color-brand-blue)]">
-               ₹{tour.price.toLocaleString("en-IN")}
-               <span className="text-sm font-normal text-gray-500">/pp</span>
+               {tour.price ? (
+                 <>
+                   ₹{tour.price.toLocaleString("en-IN")}
+                   <span className="text-sm font-normal text-gray-500">/pp</span>
+                 </>
+               ) : (
+                 <span className="text-lg">On Request</span>
+               )}
              </div>
           </div>
         </div>

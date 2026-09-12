@@ -4,6 +4,8 @@ import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 
+import { FloatingButtons } from "@/components/shared/FloatingButtons";
+
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
@@ -23,6 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </main>
         <Footer />
+        <FloatingButtons />
       </body>
     </html>
   );
