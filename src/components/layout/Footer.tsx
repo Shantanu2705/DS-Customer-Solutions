@@ -25,13 +25,13 @@ export function Footer() {
           
           {/* Brand & Info */}
           <div className="space-y-6">
-            <div className="bg-white/10 p-4 rounded-xl inline-block">
-              <div className="relative h-12 w-32">
+            <div className="bg-white p-3 rounded-xl inline-block shadow-lg">
+              <div className="relative h-14 w-36">
                 <Image 
                   src="/logo.jpeg" 
                   alt={siteConfig.name} 
                   fill
-                  className="object-contain object-left brightness-0 invert" 
+                  className="object-contain" 
                 />
               </div>
             </div>
@@ -110,7 +110,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="text-[var(--color-brand-yellow)] shrink-0" size={18} />
-                <a href={`mailto:${siteConfig.contact.email}`} className="text-gray-400 hover:text-white transition-colors break-all">
+                <a href={`mailto:${siteConfig.contact.email}`} className="text-gray-400 hover:text-white transition-colors truncate text-sm sm:text-base">
                   {siteConfig.contact.email}
                 </a>
               </li>
@@ -120,14 +120,33 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-gray-500 text-center md:text-left">
-            &copy; {currentYear} {siteConfig.name}. All Rights Reserved.
-          </p>
-          <div className="flex gap-4 text-sm text-gray-500">
-            <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-white transition-colors">Terms & Conditions</Link>
+        <div className="border-t border-gray-800 pt-8 flex flex-col items-center gap-6">
+          <div className="flex flex-col md:flex-row justify-between items-center w-full gap-4">
+            <p className="text-sm text-gray-500 text-center md:text-left">
+              &copy; {currentYear} {siteConfig.name}. All Rights Reserved.
+            </p>
+            <div className="flex gap-4 text-sm text-gray-500">
+              <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+              <Link href="/terms" className="hover:text-white transition-colors">Terms & Conditions</Link>
+            </div>
           </div>
+          
+          <a 
+            href="https://www.digitaldictionary.in" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="group relative inline-flex items-center justify-center px-6 py-2.5 font-medium text-white bg-gray-900/50 backdrop-blur-sm rounded-full overflow-hidden border border-gray-800 shadow-[0_0_20px_rgba(0,0,0,0.5)] hover:border-gray-600 transition-all duration-500 hover:-translate-y-0.5"
+          >
+            {/* Shimmer effect background */}
+            <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/5 to-transparent -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]"></span>
+            
+            <span className="relative flex items-center gap-2 text-sm text-gray-400">
+              Designed by 
+              <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-[var(--color-brand-yellow)] to-amber-500 group-hover:animate-pulse">
+                Digital Dictionary
+              </span>
+            </span>
+          </a>
         </div>
       </div>
     </footer>
