@@ -19,7 +19,7 @@ export const tours: TourPackage[] = [
       "NJP Pickup & Drop"
     ],
     importantNote: "Minimum 8 Pax required to avail this package.",
-    image: "/mountain_tour.jpg"
+    image: "/tour_darjeeling.jpg"
   },
   {
     id: "tour-2",
@@ -39,7 +39,7 @@ export const tours: TourPackage[] = [
       "NJP Pickup & Drop"
     ],
     importantNote: "Minimum 8 Pax required to avail this special package.",
-    image: "/mountain_tour.jpg"
+    image: "/tour_kalimpong.jpg"
   },
   {
     id: "tour-3",
@@ -58,7 +58,7 @@ export const tours: TourPackage[] = [
       "Food Included"
     ],
     marketingLine: "Explore Sikkim • Create Beautiful Memories",
-    image: "/mountain_tour.jpg"
+    image: "/tour_sikkim.jpg"
   },
   {
     id: "tour-4",
@@ -76,7 +76,7 @@ export const tours: TourPackage[] = [
       "Food Included"
     ],
     marketingLine: "Limited Slots Available! Book Your Group Now.",
-    image: "/beach_tour.jpg"
+    image: "/tour_goa.jpg"
   },
   {
     id: "tour-5",
@@ -95,7 +95,7 @@ export const tours: TourPackage[] = [
       "Parking Charges"
     ],
     marketingLine: "Explore Kashmir • Create Beautiful Memories",
-    image: "/mountain_tour.jpg"
+    image: "/Kashmir-Tour.png"
   },
   {
     id: "tour-6",
@@ -113,7 +113,7 @@ export const tours: TourPackage[] = [
       "Triple Sharing Room"
     ],
     marketingLine: "Enjoy 3 Nights & 4 Days amidst the beautiful nature of Dooars!",
-    image: "/forest_safari.jpg"
+    image: "/Dooars-Group-Tour.png"
   },
   {
     id: "tour-7",
@@ -124,7 +124,7 @@ export const tours: TourPackage[] = [
     minimumPax: 2,
     packageType: "Holiday Package",
     inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
-    image: "/mountain_tour.jpg"
+    image: "/Shimla-Manali-Tour-Package.png"
   },
   {
     id: "tour-8",
@@ -135,7 +135,7 @@ export const tours: TourPackage[] = [
     minimumPax: 2,
     packageType: "Holiday Package",
     inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
-    image: "/mountain_tour.jpg"
+    image: "/Kashmir-Paradise-Tour.png"
   },
   {
     id: "tour-9",
@@ -146,7 +146,7 @@ export const tours: TourPackage[] = [
     minimumPax: 2,
     packageType: "Holiday Package",
     inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
-    image: "/beach_tour.jpg"
+    image: "/Kerala-Gods-Own-Country-Tour.png"
   },
   {
     id: "tour-10",
@@ -157,7 +157,7 @@ export const tours: TourPackage[] = [
     minimumPax: 2,
     packageType: "Holiday Package",
     inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
-    image: "/beach_tour.jpg"
+    image: "/Goa-Beach-Holiday-Package.png"
   },
   {
     id: "tour-11",
@@ -168,7 +168,7 @@ export const tours: TourPackage[] = [
     minimumPax: 2,
     packageType: "Holiday Package",
     inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
-    image: "/heritage_tour.jpg"
+    image: "/Rajasthan-Heritage-Tour.png"
   },
   {
     id: "tour-12",
@@ -179,7 +179,7 @@ export const tours: TourPackage[] = [
     minimumPax: 2,
     packageType: "Holiday Package",
     inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
-    image: "/heritage_tour.jpg"
+    image: "/The-Golden-Triangle-Tour.png"
   },
   {
     id: "tour-13",
@@ -190,7 +190,7 @@ export const tours: TourPackage[] = [
     minimumPax: 2,
     packageType: "Holiday Package",
     inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
-    image: "/beach_tour.jpg"
+    image: "/Andaman-Island-Escape.png"
   },
   {
     id: "tour-14",
@@ -201,7 +201,7 @@ export const tours: TourPackage[] = [
     minimumPax: 2,
     packageType: "Holiday Package",
     inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
-    image: "/mountain_tour.jpg"
+    image: "/Himachal-Explorer-Tour.png"
   },
   {
     id: "tour-15",
@@ -212,7 +212,7 @@ export const tours: TourPackage[] = [
     minimumPax: 2,
     packageType: "Holiday Package",
     inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
-    image: "/forest_safari.jpg"
+    image: "/Uttarakhand-Nature-Tour.png"
   },
   {
     id: "tour-16",
@@ -223,7 +223,7 @@ export const tours: TourPackage[] = [
     minimumPax: 2,
     packageType: "Holiday Package",
     inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
-    image: "/mountain_tour.jpg"
+    image: "/Meghalaya-&-Shillong-Tour.png"
   },
   {
     id: "tour-17",
@@ -234,7 +234,7 @@ export const tours: TourPackage[] = [
     minimumPax: 2,
     packageType: "Holiday Package",
     inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
-    image: "/desert_safari.jpg"
+    image: "/Jaisalmer-Desert-Safari-Tour.png"
   },
   {
     id: "tour-18",
@@ -245,7 +245,7 @@ export const tours: TourPackage[] = [
     minimumPax: 2,
     packageType: "Holiday Package",
     inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
-    image: "/spiritual_tour.jpg"
+    image: "/Varanasi-Spiritual-Tour.png"
   },
   {
     id: "tour-19",
@@ -256,7 +256,7 @@ export const tours: TourPackage[] = [
     minimumPax: 2,
     packageType: "Holiday Package",
     inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
-    image: "/mountain_tour.jpg"
+    image: "/Ooty-Mysore-Holiday-Package.png"
   },
   {
     id: "tour-20",
@@ -267,6 +267,6 @@ export const tours: TourPackage[] = [
     minimumPax: 2,
     packageType: "Holiday Package",
     inclusions: ["Hotel Accommodation", "Private Car", "Local Sightseeing"],
-    image: "/mountain_tour.jpg"
+    image: "/Arunachal-Pradesh-Adventure-Tour.png"
   }
 ];
