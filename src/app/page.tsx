@@ -1,5 +1,5 @@
 import { Hero } from "@/components/sections/Hero"
-import { QuickBooking } from "@/components/sections/QuickBooking"
+
 import { About } from "@/components/sections/About"
 import { PopularTours } from "@/components/sections/PopularTours"
 import { OurFleet } from "@/components/sections/OurFleet"
@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <QuickBooking />
+
       <About />
       <PopularTours />
       <OurFleet />
