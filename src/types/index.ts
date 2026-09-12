@@ -5,7 +5,7 @@ export interface TourPackage {
   duration: string;
   route: string;
   minimumPax: number;
-  price: number;
+  price?: number;
   packageType: string;
   inclusions: string[];
   importantNote?: string;
