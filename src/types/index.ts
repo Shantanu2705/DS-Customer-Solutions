@@ -16,14 +16,19 @@ export interface TourPackage {
 export interface Vehicle {
   id: string;
   name: string;
-  seatingCapacity: string;
+  type?: string;
+  seatingCapacity?: string;
+  capacity?: number;
+  features?: string[];
   image: string;
 }
 
 export interface Destination {
   id: string;
   name: string;
+  slug?: string;
   shortDescription: string;
+  description?: string;
   image: string;
 }
 
